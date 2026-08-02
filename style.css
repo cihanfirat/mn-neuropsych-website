@@ -244,18 +244,17 @@ h2 {
   box-shadow: var(--shadow-hover);
 }
 .why-icon {
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto 14px;
-  border-radius: 50%;
-  background-color: var(--blue-soft);
   background-repeat: no-repeat;
-  background-size: 200% 200%;
+  background-position: center;
+  background-size: contain;
 }
-.why-icon-1 { background-image: url("assets/logo3.png"); background-position: 0% 0%; }
-.why-icon-2 { background-image: url("assets/logo3.png"); background-position: 0% 100%; }
-.why-icon-3 { background-image: url("assets/logo4.png"); background-position: 0% 0%; }
-.why-icon-4 { background-image: url("assets/logo4.png"); background-position: 0% 100%; }
+.why-icon-1 { background-image: url("assets/brain-searching.png"); }
+.why-icon-2 { background-image: url("assets/brain-taskdone.png"); }
+.why-icon-3 { background-image: url("assets/brain-readbook.png"); }
+.why-icon-4 { background-image: url("assets/brain-taskdone2.png"); }
 .why-card h3 { color: var(--blue); font-size: 1.05rem; margin: 0 0 8px; }
 .why-card p { color: var(--ink-muted); font-size: 0.9rem; margin: 0; }
 .why-chapter-form {
